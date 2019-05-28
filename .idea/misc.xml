@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/Producer2/pom.xml" />
         <option value="$PROJECT_DIR$/Consumer2/pom.xml" />
         <option value="$PROJECT_DIR$/GateWay/pom.xml" />
+        <option value="$PROJECT_DIR$/Security/pom.xml" />
       </list>
     </option>
   </component>
