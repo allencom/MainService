@@ -5,38 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f95c42c-01f9-45ca-92f9-f31218156247" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Producer/src/main/java/com/producer/producer/service/RedisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Producer/src/main/java/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Security/demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/src/main/java/com/consumer/consumer/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/consumer/consumer/ConsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer2/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer2/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer2/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GateWay/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GateWay/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GateWay/src/main/java/com/gateway/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/GateWay/src/main/java/com/gateway/gateway/GatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GateWay/src/main/java/com/gateway/gateway/filter/TestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/GateWay/src/main/java/com/gateway/gateway/filter/TestFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GateWay/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/GateWay/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Producer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Producer/src/main/java/com/producer/producer/ProducerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Producer/src/main/java/com/producer/producer/ProducerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Producer/src/main/java/com/producer/producer/controller/ProducerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Producer/src/main/java/com/producer/producer/controller/ProducerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Producer/src/main/java/com/producer/producer/entity/testEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Producer/src/main/java/com/producer/producer/entity/testEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Producer/src/main/java/com/producer/producer/utils/RedisConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Producer/src/main/java/com/producer/producer/utils/RedisUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Producer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Producer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Producer/src/main/resources/spring-log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Security/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -84,23 +55,23 @@
         <counts>
           <entry key="class" value="6" />
           <entry key="cmd" value="1" />
-          <entry key="java" value="26" />
+          <entry key="java" value="27" />
           <entry key="jsp" value="1" />
           <entry key="pom" value="1" />
           <entry key="propereties" value="1" />
           <entry key="properties" value="14" />
-          <entry key="xml" value="18" />
+          <entry key="xml" value="19" />
           <entry key="yml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="6" />
-          <entry key="JAVA" value="26" />
+          <entry key="JAVA" value="27" />
           <entry key="JSP" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="15" />
-          <entry key="XML" value="19" />
+          <entry key="XML" value="20" />
           <entry key="YAML" value="7" />
         </counts>
       </usages-collector>
@@ -110,7 +81,7 @@
           <entry key="java" value="774" />
           <entry key="propereties" value="18" />
           <entry key="properties" value="513" />
-          <entry key="xml" value="123" />
+          <entry key="xml" value="126" />
           <entry key="yml" value="423" />
         </counts>
       </usages-collector>
@@ -119,7 +90,7 @@
           <entry key="HTML" value="12" />
           <entry key="JAVA" value="774" />
           <entry key="Properties" value="531" />
-          <entry key="XML" value="123" />
+          <entry key="XML" value="126" />
           <entry key="YAML" value="423" />
         </counts>
       </usages-collector>
@@ -146,15 +117,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Consumer2/src/main/java/com/consumer2/consumer2/Consumer2Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Consumer/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="167">
@@ -176,15 +138,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GateWay/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            <state relative-caret-position="66">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
               <folding>
                 <element signature="e#63#115#0" />
                 <element signature="e#116#243#0" />
                 <element signature="e#337#492#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GateWay/src/main/java/com/gateway/gateway/filter/TestFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -203,11 +177,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GateWay/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-206">
-              <caret line="46" column="71" selection-start-line="46" selection-start-column="71" selection-end-line="46" selection-end-column="71" />
+            <state relative-caret-position="309">
+              <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Producer/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="55" column="21" selection-start-line="28" selection-start-column="7" selection-end-line="55" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -215,17 +198,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GateWay/src/main/java/com/gateway/gateway/GatewayApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RegisterCenter/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+            <state relative-caret-position="176">
+              <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -471,35 +445,6 @@
               <item name="MainService" type="462c0819:PsiDirectoryNode" />
               <item name="Producer" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MainService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MainService" type="462c0819:PsiDirectoryNode" />
-              <item name="Producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MainService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MainService" type="462c0819:PsiDirectoryNode" />
-              <item name="Producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MainService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MainService" type="462c0819:PsiDirectoryNode" />
-              <item name="Producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MainService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MainService" type="462c0819:PsiDirectoryNode" />
-              <item name="Producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -517,7 +462,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559294572878" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559295599420" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -838,18 +783,18 @@
       <workItem from="1541657657622" duration="73000" />
       <workItem from="1547709621101" duration="9000" />
       <workItem from="1559024886577" duration="6355000" />
-      <workItem from="1559281242620" duration="11163000" />
+      <workItem from="1559281242620" duration="12058000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81243000" />
+    <option name="totallyTimeSpent" value="82138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2730812" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2730812" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -866,7 +811,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32869378" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3279743" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3279743" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
@@ -876,7 +821,7 @@
       <window_info anchor="bottom" id="JRebel Console" order="15" side_tool="true" />
       <window_info anchor="bottom" id="REST Client" order="16" weight="0.345987" />
       <window_info anchor="bottom" id="Problems" order="17" weight="0.329718" />
-      <window_info anchor="bottom" id="Run Dashboard" order="18" visible="true" weight="0.4523044" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="18" visible="true" weight="0.39978564" />
       <window_info anchor="bottom" id="Statistic" order="19" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1021,13 +966,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Producer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="86" column="43" selection-start-line="86" selection-start-column="43" selection-end-line="86" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Producer/src/main/java/com/producer/producer/service/RedisService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1049,16 +987,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="25" column="25" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GateWay/src/main/java/com/gateway/gateway/filter/TestFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1167,29 +1095,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GateWay/pom.xml">
+    <entry file="file://$PROJECT_DIR$/GateWay/src/main/java/com/gateway/gateway/filter/TestFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-206">
-          <caret line="46" column="71" selection-start-line="46" selection-start-column="71" selection-end-line="46" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GateWay/src/main/java/com/gateway/gateway/GatewayApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="259">
+          <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GateWay/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        <state relative-caret-position="66">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
           <folding>
             <element signature="e#63#115#0" />
             <element signature="e#116#243#0" />
             <element signature="e#337#492#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GateWay/src/main/java/com/gateway/gateway/GatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Producer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="55" column="21" selection-start-line="28" selection-start-column="7" selection-end-line="55" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GateWay/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
         </state>
       </provider>
     </entry>
