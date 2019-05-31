@@ -1,8 +1,9 @@
 package com.producer.producer.controller;
 
 
-import com.producer.producer.utils.RedisUtils;
+import com.producer.producer.service.RedisService;
 import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -27,14 +28,14 @@ public class ProducerController {
 
     private static Logger log = Logger.getLogger(ProducerController.class);
 
-    @Resource
-    private RedisUtils redisUtils;
+    @Autowired
+    private RedisService redisService;
 
     @ResponseBody
     @RequestMapping(value = "/add", produces = {"application/json;charset=UTF-8"})
     public String add(){
-        log.info("===============>"+redisUtils.hasKey("123"));
-        redisUtils.set("2222","12312312",5000);
+        log.info("===============>"+redisService.exists("123"));
+        redisService.write("2222","12312312",5000);
         return"test";
         //return "produce1 add success";
     }

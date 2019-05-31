@@ -4,10 +4,13 @@ package com.gateway.gateway.filter;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import javax.servlet.http.HttpServletRequest;
 
 public class TestFilter extends ZuulFilter {
+ private static Logger log = LoggerFactory.getLogger(TestFilter.class);
 
  @Override
  public String filterType() {
@@ -31,6 +34,7 @@ public class TestFilter extends ZuulFilter {
 
   RequestContext ctx = RequestContext.getCurrentContext();
   HttpServletRequest request = ctx.getRequest();
+  log.info("requestUrl :"+ request.getServletPath());
 
   return null;
  }

@@ -1,5 +1,43 @@
-spring:
-  application:
-    name: Service-Consumer
 server:
-  port: 2224
+  port: 0
+#  servlet:
+#    context-path: /Service-Producer
+spring:
+  mvc:
+    view:
+      suffix: .html
+      prefix: /
+  application:
+    name: SERVICE-CONSUMER2
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8
+    driver-class-name: com.mysql.jdbc.Driver
+    data-username: root
+    data-password: 1qaz2wsx
+    hikari:
+      maximum-pool-size: 6
+logging:
+  level:
+    com.producer.*: DEBUG
+mybatis:
+  mapper-locations: classpath:com/producer/producer/mapper/*.xml
+  config-location: classpath:mybatis-config.xml
+redis:
+  host: 127.0.0.1
+  port: 6379
+  database: 0
+  jedis:
+    pool:
+      max-active: 8
+      max-idle: 8
+      max-wait: -1
+      min-idle: 0
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id:  ${spring.cloud.client.ip-address}:${random.int}
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 6
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka/

@@ -1,12 +1,14 @@
 server:
   port: 0
+#  servlet:
+#    context-path: /Service-Producer
 spring:
   mvc:
     view:
       suffix: .html
       prefix: /
   application:
-    name: SERVICE-PRODUCER
+    name: SERVICE-CONSUMER
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8
     driver-class-name: com.mysql.jdbc.Driver
@@ -16,7 +18,7 @@ spring:
       maximum-pool-size: 6
 logging:
   level:
-    com.producer.producer: DEBUG
+    com.producer.*: DEBUG
 mybatis:
   mapper-locations: classpath:com/producer/producer/mapper/*.xml
   config-location: classpath:mybatis-config.xml
@@ -39,4 +41,3 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:1111/eureka/
-
