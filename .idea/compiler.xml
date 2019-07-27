@@ -2,23 +2,26 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Consumer" />
-        <module name="Consumer2" />
-        <module name="demo" />
-        <module name="GateWay" />
-        <module name="MainService" />
-        <module name="Producer" />
-        <module name="Producer2" />
-        <module name="RegisterCenter" />
+        <module name="admin" />
+        <module name="consumer" />
+        <module name="gateway" />
+        <module name="producer" />
+        <module name="registercenter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="demo" target="1.8" />
+      <module name="admin" target="1.8" />
+      <module name="adminserver" target="1.8" />
+      <module name="consumer" target="1.8" />
+      <module name="gateway" target="1.8" />
+      <module name="MainService" target="1.5" />
+      <module name="producer" target="1.8" />
+      <module name="producer2" target="1.8" />
+      <module name="registercenter" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

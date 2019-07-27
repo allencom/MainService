@@ -2,7 +2,9 @@ package com.producer.producer.controller;
 
 
 import com.producer.producer.service.RedisService;
-import org.apache.log4j.Logger;
+import io.swagger.annotations.Api;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
@@ -22,11 +24,12 @@ import static org.springframework.web.bind.annotation.RequestMethod.GET;
 /**
  * @author Administrator
  */
+@Api("测试接口")
 @Controller
 @RequestMapping("/produce")
 public class ProducerController {
 
-    private static Logger log = Logger.getLogger(ProducerController.class);
+    private static Logger log = LoggerFactory.getLogger(ProducerController.class);
 
     @Autowired
     private RedisService redisService;

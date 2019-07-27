@@ -27,15 +27,12 @@ public class TestFilter extends ZuulFilter {
   return true;
  }
 
-
  //拦截请求并做校验
  @Override
  public Object run() throws ZuulException {
-
   RequestContext ctx = RequestContext.getCurrentContext();
   HttpServletRequest request = ctx.getRequest();
-  log.info("requestUrl :"+ request.getServletPath());
-
+  log.info("======================================>requestUrl :"+ request.getServletPath());
   return null;
  }
 }

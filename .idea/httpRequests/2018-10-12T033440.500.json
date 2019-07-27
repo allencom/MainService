@@ -1,7 +1,0 @@
-{
-  "timestamp": "2018-10-12T07:34:40.728+0000",
-  "status": 500,
-  "error": "Internal Server Error",
-  "message": "No message available",
-  "path": "/Service-Producer/produce/add"
-}

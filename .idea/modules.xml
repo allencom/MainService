@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Security/demo.iml" filepath="$PROJECT_DIR$/Security/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MainService.iml" filepath="$PROJECT_DIR$/MainService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/admin/admin.iml" filepath="$PROJECT_DIR$/admin/admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Consumer/consumer.iml" filepath="$PROJECT_DIR$/Consumer/consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GateWay/gateway.iml" filepath="$PROJECT_DIR$/GateWay/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Producer/producer.iml" filepath="$PROJECT_DIR$/Producer/producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RegisterCenter/registercenter.iml" filepath="$PROJECT_DIR$/RegisterCenter/registercenter.iml" />
     </modules>
   </component>
 </project>
